@@ -16,3 +16,24 @@ Built using:
 - **Streamlit** for the frontend
 
 ## 📁 Project Structure
+
+```
+Heart-Stroke/
+├── app.py                  # Streamlit frontend
+├── LogReg_heart_model.pkl  # Trained model
+├── heart_scaler.pkl        # Scaler
+├── heart_columns.pkl       # Feature columns
+└── requirements.txt
+```
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/Akshita1-Sanvi9/Heart-Stroke.git
+cd Heart-Stroke
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🛠️ Tech Stack
+Python · Scikit-learn · Streamlit · Pandas
